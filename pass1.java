@@ -14,9 +14,7 @@ import java.util.StringTokenizer;
 class Tuple {
     String mnemonic, m_class, opcode;
     int length;
-
     Tuple() {}
-
     Tuple(String s1, String s2, String s3, String s4) {
         mnemonic = s1;
         m_class = s2;
@@ -28,7 +26,6 @@ class Tuple {
 class SymTuple {
     String symbol, address;
     int length;
-
     SymTuple(String s1, String s2, int i1) {
         symbol = s1;
         address = s2;
@@ -39,9 +36,7 @@ class SymTuple {
 class LitTuple {
     String literal, address;
     int length;
-
     LitTuple() {}
-
     LitTuple(String s1, String s2, int i1) {
         literal = s1;
         address = s2;
